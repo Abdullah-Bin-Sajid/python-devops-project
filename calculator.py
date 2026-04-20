@@ -12,8 +12,16 @@ def divide(a, b):
         return "Error: Division by zero!"
     return a / b
 
-print("Calculator Ready!")
-print(add(10, 5))
-print(subtract(10, 5))
-print(multiply(10, 5))
-print(divide(10, 5))
+def power(a, b):
+    return a ** b
+
+def modulus(a, b):
+    return a % b
+
+print("Calculator Results:")
+print("Add:", add(10, 5))
+print("Subtract:", subtract(10, 5))
+print("Multiply:", multiply(10, 5))
+print("Divide:", divide(10, 5))
+print("Power:", power(3, 4))
+print("Modulus:", modulus(10, 3))
