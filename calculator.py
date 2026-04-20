@@ -1,4 +1,6 @@
 def add(a, b):
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        return "Error: Only numbers allowed!"
     return a + b
 
 def subtract(a, b):
