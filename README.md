@@ -1,13 +1,15 @@
 # Python Calculator Project
 
 ## Description
-A simple Python calculator built and managed using Git & GitHub workflow.
+A Python calculator with input validation, built using professional Git & GitHub workflow.
 
 ## Features
-- Addition
+- Addition (with number validation)
 - Subtraction
 - Multiplication
-- Division
+- Division (with validation and rounding)
+- Power
+- Modulus
 
 ## How to Run
 ```bash
