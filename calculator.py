@@ -8,9 +8,11 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        return "Error: Only numbers allowed!"
     if b == 0:
         return "Error: Division by zero!"
-    return a / b
+    return round(a / b, 2)
 
 def power(a, b):
     return a ** b
